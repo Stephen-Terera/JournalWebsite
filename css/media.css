@@ -1,0 +1,243 @@
+/* meadium screen adjustments */
+@media only screen and (min-width:500px) {
+  .DMA_screenshot {
+    width: 20rem;
+    height: 20rem;
+  }
+  .content-wrap{
+    padding-bottom:12rem;
+  }
+}
+
+/* Tablet view  */
+@media only screen and (min-width: 800px) {
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  body {
+
+    min-height: 100vh;
+  }
+
+  footer {
+    background-color: #b0c4de;
+    background-image: -webkit-linear-gradient(left, #ccc, #b0c4de, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #b0c4de, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #b0c4de, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #b0c4de, #ccc);
+    bottom: 0;
+    height: 10rem;
+    position: relative;
+    opacity: 0.90;
+  }
+
+  h1 {
+    font-family: 'Ephesis', cursive;
+    font-size: 5rem;
+    padding-top: 2px;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  header {
+    background-color: transparent;
+  }
+
+  hr {
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+    border: 0;
+    height: 1px;
+    width: 80%;
+  }
+
+  img {
+    float: right;
+  }
+
+  li {
+    list-style-type: none;
+  }
+  li.header-links{
+    width: 50%;
+    float: left;
+  }
+  li.header-links.last_btn{
+    float: none;
+    width: 100%;
+  }
+  nav {
+    margin: auto;
+    width: auto;
+  }
+
+  p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4rem;
+    text-align: left;
+  }
+  table{
+    width:100%;
+  }
+
+
+  .caption {
+    text-align: center;
+  }
+
+
+  .DevSoc_Screenshot {
+    width: 35vw;
+    height: 20vh;
+  }
+
+  .DMA_screenshot {
+    float: none;
+    height: 24.25vh;
+    position: static;
+    width: 35vw;
+  }
+
+  .DMA_p {
+    text-align: center;
+  }
+
+  .DMA_imgs {
+    height: 11.25rem;
+    width: 20.75rem;
+  }
+
+  .DMA_spacing {
+    padding-bottom: 1.5rem;
+  }
+
+  .external_lecture-imgs {
+    width: 20rem;
+  }
+
+  .footer-links {
+    padding-top: 16px;
+    font-size: 1.25rem;
+  }
+
+  .header-links {
+    display: inline
+  }
+
+  .headerNav {
+    background-color: transparent;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .img-caption {
+    float: right;
+  }
+
+  .page-container {
+    min-height: 100vh;
+  }
+  .personal_info{
+    float: right;
+  }
+  .spacing {
+    padding-bottom: 3vh;
+  }
+
+  .volunteer_img {
+    width: 28.75vw;
+    height: 18.75vh;
+  }
+}
+/* laptop and desktop view */
+@media only screen and (min-width: 1200px){
+  button{
+    font-size: 4.5rem;
+  }
+ h1{
+   font-size: 5rem;
+ }
+  footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  p{
+    font-size: 1.8rem;
+  }
+  .DevSoc_Screenshot{
+    height:35vh;
+
+  }
+  .DMA_imgs {
+    height: 25.25vh;
+    width: 35.75vw;
+  }
+
+  .external_lecture-imgs {
+    width: 35vw;
+    height: 30vh;
+  }
+  .extra_space{
+    padding-bottom: 25vh;
+  }
+  .nav-btn {
+    background-color: transparent;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 19px;
+    margin: auto;
+    padding: 12px 37px;
+    width: auto;
+  }
+
+  .nav-btn:hover {
+    background-color: #4e6096;
+    border: 0;
+    box-shadow: 0 0 0 2px #9fb4f2;
+    color: #F3CFC6;
+  }
+
+  .headerNav {
+    background-color: transparent;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+  }
+  li.header-links{
+    width: auto;
+    float: none;
+  }
+  .spacing{
+    margin-bottom: 2.5vh;
+  }
+  .volunteer_img {
+    width: 30.75vw;
+    height: 25.75vh;
+  }
+}
+/* Extra large screen view */
+@media only screen and (min-width: 2000px){
+  p{
+    font-size:2.55rem;
+  }
+ 
+  .extra_space{
+    padding-bottom: 35vh;
+  }
+}

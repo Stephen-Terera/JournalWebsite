@@ -1,0 +1,148 @@
+
+a{
+  color:black;
+  text-decoration: none;
+}
+body{
+    
+  background-color: #E0C9A6;
+  background-repeat: repeat-y;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+button{
+  background-color: #b0c4de;
+  font-size: 1.25em;
+  height: 2em;
+  margin : 0;
+  padding:0;
+  width: 100%;
+  }
+
+footer{
+  background-color: #b0c4de;
+  height: auto;
+  margin-bottom:0;
+  padding-bottom: 0;
+  position: relative;
+}
+
+h1{
+  font-size: 3.125em;
+  text-align: center;
+}
+h2{
+  text-decoration: underline;
+}
+
+header{
+  background-color: transparent;
+  height: auto;
+  max-width: 100%;
+  padding-left: 0;
+}
+
+hr{
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #b0c4de, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #b0c4de, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #b0c4de, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #b0c4de, #ccc);
+  border: 0;
+  height: 1px;
+  width: 50%;
+
+}
+
+img{
+  display: block;
+  height: 12.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12rem;
+}
+li{
+  display: block;
+  list-style-type: none;
+  
+}
+p{
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 1rem;
+  width:100%;
+}
+span{
+  text-decoration: underline;
+}
+table{
+  font-size:1.2rem; 
+  width:100%
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding : 0;
+}
+.caption{
+  text-align: center;
+}
+.content-wrap{
+  height:auto;
+  width: inherit;
+ }
+ .cpd_hours{
+   
+  width:50%;
+
+ }
+.DevSoc_Screenshot {
+  width:80%;
+}
+.DMA_imgs{
+  width: 15rem;
+}
+.Digital_horizons_imgs{
+  height: 12.5rem;
+  width: 12rem;
+}
+
+.external_lecture-imgs{
+  width:15rem;
+}
+.footer-links{
+  display: block;
+  list-style-type: none;
+  margin-top: 5px;
+  padding-left: 16px;
+  padding-top: 10px;
+}
+.headerNav{
+  background-color: transparent;
+  height: auto;
+  margin : auto;
+  padding-left: 0;
+  width:100%;
+}
+.headerNav li{
+  padding-top:2px;
+}
+
+.page-container{
+  height: 100vh;
+  text-align: left;
+  width:inherit;
+}
+
+.style-one{
+ 
+  width: 50%
+}
+.volunteer_img {
+  width:15rem;
+}
+.webinar{
+  font-size:1.25rem;
+}
